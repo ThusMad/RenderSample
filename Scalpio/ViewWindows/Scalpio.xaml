@@ -1,0 +1,18 @@
+﻿<Window x:Class="Scalpio.ViewWindows.Scalpio"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Scalpio.ViewWindows" 
+        xmlns:decorators="clr-namespace:Scalpio.Decorators" 
+        xmlns:terminal="clr-namespace:Scalpio.Controls.Terminal;assembly=Scalpio.Controls"
+        mc:Ignorable="d"
+        MinHeight="600" MinWidth="920"       
+        Height="932" Width="1800"
+        Title="Chart">
+    <decorators:DpiDecorator>
+        <Grid Name="Grid" Width="auto" Height="auto" Background="White">
+            <terminal:Terminal Margin="0,32,0,0"></terminal:Terminal>
+        </Grid>
+    </decorators:DpiDecorator>
+</Window>

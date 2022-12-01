@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Scalpio.Render": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
